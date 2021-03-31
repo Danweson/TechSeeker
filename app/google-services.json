@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "912464579479",
+    "firebase_url": "https://techseeker-aa8b7.firebaseio.com",
+    "project_id": "techseeker-aa8b7",
+    "storage_bucket": "techseeker-aa8b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:912464579479:android:8393ffa68346536f6592d2",
+        "android_client_info": {
+          "package_name": "com.example.techseeker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "912464579479-5bpknf7qce0tpjhikdjet0gefbm0l8bk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0s-NLR8a0kHF419K_mIuCbqq6nxiWdkA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "912464579479-5bpknf7qce0tpjhikdjet0gefbm0l8bk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

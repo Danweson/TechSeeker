@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Signin">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tech Seeker"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:textSize="30dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"/>
+
+    <ImageView
+        android:id="@+id/person"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_person"
+        android:layout_below="@id/title"
+        android:layout_centerInParent="true"/>
+
+    <EditText
+        android:id="@+id/edit_full_name"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Full Name"
+        android:padding="10dp"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/ic_name"
+        android:background="@drawable/round_border"
+        android:layout_below="@id/person"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/edit_email"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        android:padding="10dp"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/ic_email"
+        android:background="@drawable/round_border"
+        android:layout_below="@id/edit_full_name"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/edit_phone"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        android:hint="Phone Number"
+        android:padding="10dp"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/ic_phone"
+        android:background="@drawable/round_border"
+        android:layout_below="@id/edit_email"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/edit_location"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Location"
+        android:padding="10dp"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/ic_location"
+        android:background="@drawable/round_border"
+        android:layout_below="@id/edit_phone"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/edit_password"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:padding="10dp"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/ic_lock"
+        android:background="@drawable/round_border"
+        android:layout_below="@id/edit_location"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btn_signup"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Sign up"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@id/edit_password"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round_bg"
+        android:textColor="@color/colorWhite"/>
+
+    <TextView
+        android:id="@+id/withAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Do you have account? Sign in"
+        android:layout_below="@id/btn_signup"
+        android:layout_centerInParent="true"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        />
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:id="@+id/copyRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Copyright 2020"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        />
+
+</RelativeLayout>

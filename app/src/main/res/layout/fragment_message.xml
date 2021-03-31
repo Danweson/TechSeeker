@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tech Seeker"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:textSize="30dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"/>
+
+    <EditText
+        android:id="@+id/editTitle"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Title"
+        android:padding="10dp"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/ic_title"
+        android:background="@drawable/round_border"
+        android:layout_below="@id/title"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/editContent"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:ems="10"
+        android:hint="Describe your technical problems here... "
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:layout_below="@id/editTitle"
+        android:padding="18dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/round_border"/>
+
+    <Button
+        android:id="@+id/btnMessage"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@id/editContent"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/round_bg"
+        android:textColor="@color/colorWhite"/>
+
+    <RelativeLayout
+        android:id="@+id/listMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:layout_below="@id/btnMessage"
+        android:layout_marginTop="20dp">
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            />
+
+    </RelativeLayout>
+    
+</RelativeLayout>

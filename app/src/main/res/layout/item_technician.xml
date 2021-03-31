@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/technician_item_id">
+
+    <ImageView
+        android:id="@+id/tech_img"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/maintainer"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"/>
+    <TextView
+        android:id="@+id/tech_full_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tech_img"
+        android:textColor="@color/colorBlack"
+        android:textSize="20sp"
+        android:text="DANWE Christophe"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:id="@+id/tech_phone_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tech_img"
+        android:layout_below="@+id/tech_full_name"
+        android:text="691425504"
+        android:textSize="15sp"
+        android:textColor="@color/colorBlack"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:id="@+id/tech_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tech_phone_number"
+        android:layout_below="@+id/tech_full_name"
+        android:text="Logbessou"
+        android:textSize="15sp"
+        android:textColor="@color/colorBlack"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"/>
+
+
+
+</RelativeLayout>
